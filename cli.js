@@ -129,8 +129,6 @@ async function process(json) {
             return took
         })
         .then(message => {
-            var ghUrl = terminalLink("Direct Link to this github profile", json.html_url)
-            console.log(ghUrl)
             console.log(`
             Username: ${chalk.blue(json.login)}
                 Name: ${chalk.blue(json.name)}
