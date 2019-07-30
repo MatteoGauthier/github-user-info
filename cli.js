@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const terminalImage = require("terminal-image")
 const got = require("got")
 const prompts = require("prompts")
