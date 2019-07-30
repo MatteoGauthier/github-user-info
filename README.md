@@ -6,7 +6,13 @@ Github cli app to display user info
 # Instruction
 
 Clone the repository
+
 `git clone https://github.com/MattixNow/github-user-info`
 
 Start the app
+
 `node .`
+
+
+# TODO
+- [ ] replace node-fetch by got

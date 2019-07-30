@@ -1,18 +1,42 @@
 {
-  "name": "prompt-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "boxen": "^4.1.0",
-    "chalk": "^2.4.2",
-    "node-fetch": "^2.6.0",
-    "prompts": "^2.1.0"
-  }
+ "name": "gh-user-info",
+ "version": "1.1.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node cli.js"
+ },
+ "bin": {
+  "gh-user-info": "cli.js"
+ },
+ "keywords": [
+  "cli-app",
+  "cli",
+  "app",
+  "gh",
+  "github",
+  "user",
+  "info",
+  "name",
+  "check"
+ ],
+ "author": {
+  "name": "Mattèo Gauthier",
+  "email": "matteo.gauthier@gmail.com",
+  "url": "semoule.fr"
+ },
+ "license": "MIT",
+ "dependencies": {
+  "boxen": "^4.1.0",
+  "chalk": "^2.4.2",
+  "clipboardy": "^2.1.0",
+  "got": "^9.6.0",
+  "node-fetch": "^2.6.0",
+  "open": "^6.4.0",
+  "prompts": "^2.1.0",
+  "terminal-image": "^0.2.0",
+  "terminal-link": "^1.3.0",
+  "yargs": "^13.3.0"
+ }
 }
