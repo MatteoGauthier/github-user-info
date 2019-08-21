@@ -5,12 +5,14 @@ Github cli app to display user info
 `npm i -g gh-user-info`
 ```yaml
 $ gh-user-info --help
-Usage: cli.js -u [eg. username] --copy [eg. login] -o
+Usage: gh-user-info -u [eg. username] --copy [eg. login] -o
 
 Options:
-  --version   Affiche le numéro de version                             [booléen]
-  -c, --copy  Open in your browser the current github profile
-  -h, --help  Affiche de l'aide                                        [booléen]
+  --version   Show version number                                      [boolean]
+  -c, --copy  Copy user infos
+  -o, --open  Open in your browser the current github profile
+  -u, --user  Chose a specific github user
+  -h, --help  Show help                                                [boolean]
 
 Mattèo Gauthier - semoule.fr 2019
 ```
