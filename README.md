@@ -28,3 +28,4 @@ Start the app
 
 ## TODO
 - [ ] replace node-fetch by got
+- [ ] remove terminal-link
