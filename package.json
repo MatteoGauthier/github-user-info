@@ -1,6 +1,6 @@
 {
   "name": "gh-user-info",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "repository": "MattixNow/github-user-info",
   "description": "Display Public user information",
   "main": "cli.js",
