@@ -21,7 +21,7 @@ const argv = require("yargs")
     .describe("u", "Chose a specific github user")
     .help("h")
     .alias("h", "help")
-    .epilog("Mattèo Gauthier - semoule.fr 2019").argv
+    .epilog("Mattèo Gauthier - Mattèo.dev 2019").argv
 
 var location = ""
 
