@@ -21,7 +21,7 @@ Mattèo Gauthier - semoule.fr 2019
 
 Clone the repository
 
-`git clone https://github.com/MattixNow/github-user-info`
+`git clone https://github.com/MatteoGauthier/github-user-info`
 
 Start the app
 
